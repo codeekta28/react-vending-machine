@@ -1,0 +1,38 @@
+.vendingMachine{
+    /* background: url(../imgs/vending-machine.gif); */
+    background: url("https://images.unsplash.com/photo-1575224526797-5730d09d781d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVuZGluZyUyMG1hY2hpbmV8ZW58MHx8MHx8&w=1000&q=80")center/cover no-repeat;
+    height: 100vh;
+    color: white;
+}
+.vendingMachine ul{
+    list-style: none;
+    
+    width: 32%;
+    position: relative;
+    top: 16rem;
+    float: right;
+}
+.vendingMachine ul li a{
+color: white;
+text-decoration: none;
+font-size: 1.8rem;
+line-height:3.5rem;
+
+}
+.vendingMachine ul li a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+.vendingMachine h3{
+
+    width: 24%;
+    font-size: 2rem;
+    position: relative;
+    top: 16rem;
+    left: 3rem;
+}
+.vendingMachine h3 span{
+    color: red;
+    text-transform: uppercase;
+}

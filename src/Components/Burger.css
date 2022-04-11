@@ -1,0 +1,42 @@
+.burger{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.burger button{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background-color: wheat;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-style: italic;
+    word-spacing: 0.6rem;
+    margin: 1rem;
+    transition: 0.3s all linear;
+}
+.burger button:hover{
+    cursor: pointer;
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.2em);
+}
+.burger img{
+    width: 10%;
+    position: absolute;
+    z-index: -1;
+}
+.burger h3{
+    font-size: 1.8rem;
+    margin: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: red;
+   
+    
+}
+
+
